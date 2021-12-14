@@ -12,7 +12,7 @@ function setup() {
  function draw() {
 
     image(video, 0, 0, 300, 300);
-    classifier.classify(video, getResult);
+    classifier.classify(video, gotResult);
  } 
  var previous_result = '';
 
